@@ -1,7 +1,13 @@
 {
+  "author": "Ideolys",
   "name": "napp",
   "description": "Node AP[P]lication [P]ackager",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ideolys/napp.git"
+  },
+  "preferGlobal": true,
   "bin": {
     "napp": "bin/napp"
   },
