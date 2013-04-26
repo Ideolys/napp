@@ -1,0 +1,12 @@
+{
+  "name": "napp",
+  "description": "Node AP[P]lication [P]ackager",
+  "version": "0.0.1",
+  "bin": {
+    "napp": "bin/napp"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">= 0.8.18"
+  }
+}
