@@ -2,7 +2,7 @@
   "author": "Ideolys",
   "name": "napp",
   "description": "Node AP[P]lication [P]ackager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/Ideolys/napp.git"
