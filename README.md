@@ -1,10 +1,15 @@
-
 Node AP[P]lication [P]ackager
 =============================
 
 What's napp ?
 -------------
 Napp is a node module to pack and unpack your node js applications.
+
+Features
+--------
+- Keeps all dependencies, even private ones (not published on NPM)
+- Installs your application on the target host without querying NPM server
+- Rebuilds automatically the node modules on the target host
 
 Install
 -------
