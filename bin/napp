@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+var pack = require('../lib/pack');
+var unpack = require('../lib/unpack');
+var _action = process.argv[2];
+
+switch(_action){
+  case 'pack':
+    pack( process.argv.slice(3) );
+    break;
+  case 'unpack':
+    unpack( process.argv.slice(3) );
+    break;
+  default:
+    usage();
+}
+
+function usage(){
+  console.log(
+    'NAPP : Node AP[P]lication [P]ackager\n' +
+    '\n' +
+    'Usage: napp <command> [options]'
+  );
+}
